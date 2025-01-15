@@ -1,12 +1,29 @@
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #141C2F;
     font-family: "League Spartan", serif;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    font-size: 20px;
 }
 
 .top{
     color: white;
     display: flex;
     justify-content: space-evenly;
+    gap: 900px;
 }
 
 .light{
@@ -18,6 +35,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
 }
 
 .searchdiv{
@@ -27,25 +46,127 @@ body{
     background-color:#1F2A48 ;
     border-radius: 10px;
     padding: 5px;
+    gap: 20px;
 }
 
 .searchinp{
     height: 50px;
-    width: 500px;
+    width: 900px;
     background-color: #1F2A48;
     border: 0;
     font-family: "League Spartan", serif;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 25px;
+    border-radius: 10px;
 }
+
 
 .search{
     background-color: #0079FF;
     border: 0;
     padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 22px;
     color: white;
     border-radius: 10px;
 }
+
+.mainall{
+    padding: 50px;
+    background-color:#1F2A48 ;
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.mainpic{
+    width: 180px;
+    border-radius: 50%;
+}
+
+.mainuser{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.usernam{
+    display: flex;
+    gap: 370px;
+}
+
+.usernam h1{
+    margin: 0px;
+}
+
+.nobio{
+    color: gray;
+    padding-top: 30px;
+}
+
+.jan2011{
+    color: gray;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainmiddle{
+    background-color: #141C2F;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 10px;
+    width: 700px;
+    margin: 0;
+}
+
+.stat h1{
+    color: white;
+}
+
+.stat p{
+    color: gray;
+}
+
+.mainbot{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.info a{
+    color: gainsboro;
+}
+
+.info a:hover{
+    color: white;
+}
+
+
+
+.info button{
+    i{filter: brightness(0) invert(1)}
+    background-color: #1F2A48;
+    border: 0;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
